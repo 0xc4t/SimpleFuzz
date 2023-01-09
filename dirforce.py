@@ -1,5 +1,3 @@
-# Import modul
-
 import os
 import sys
 import argparse
@@ -7,11 +5,6 @@ import requests as r
 from colorama import Fore
 
 os.system('clear')
-
-headers = {
-	'User-Agent':'Macintosh Mac OS X'
-}
-
 parser = argparse.ArgumentParser()
 
 print(Fore.LIGHTCYAN_EX ,'''
@@ -51,3 +44,5 @@ for i in word:
         print (Fore.RED,f"(Status: {request.status_code}) [Size : {len(request.content)}] \t{url_path}")
     elif request.status_code==301:
         print (Fore.BLUE,f"(Status: {request.status_code}) [Size : {len(request.content)}] \t{url_path}")
+    elif request.status_code == 403:
+        print (Fore.LIGHTYELLOW_EX ,f"(Status: {request.status_code}) [Size : {len(request.content)}] \t{url_path}")
