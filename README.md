@@ -5,7 +5,7 @@ DirForce adalah tools open source yang digunakan untuk mencari directory tersemb
 ```
 sudo apt-get install python3 python3-pip
 sudo pip3 install colorama
-git clone https://github.com/varelvalensio/DirForce
+git clone https://github.com/varelsecurity/DirForce
 cd DirForce
 python3 dirforce.py
 ```
