@@ -5,8 +5,6 @@
 
 DirForce adalah tools open source yang digunakan untuk mencari directory tersembunyi dari suatu website secara pasive tools ini ditulis dengan bahasa pemrograman python dan dibuat oleh varel security
 
-![carbon (2)](https://user-images.githubusercontent.com/105418279/211442330-27365a41-8ef3-4b4f-a310-d9d0e4319252.png)
-
 ### Installation
 ```
 sudo apt-get install python3 python3-pip
