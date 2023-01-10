@@ -12,6 +12,7 @@ git clone https://github.com/varelsecurity/DirForce
 cd DirForce
 python3 dirforce.py
 
+[HOW  TO USE]
 python3 dirforce.py -u [Url] -w [wordlist] -o [output.txt]
 
 ```
