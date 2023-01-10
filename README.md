@@ -11,6 +11,9 @@ sudo pip3 install colorama
 git clone https://github.com/varelsecurity/DirForce
 cd DirForce
 python3 dirforce.py
+
+python3 dirforce.py -u [Url] -w [wordlist] -o [output.txt]
+
 ```
 
 ### Testing on 
