@@ -1,7 +1,7 @@
 import os
 import sys
 import argparse
-import requests as r
+import httpx as r
 from colorama import Fore
 from threading import Thread
 import time
