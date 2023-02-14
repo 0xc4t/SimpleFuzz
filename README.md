@@ -14,7 +14,7 @@ cd DirForce
 python3 dirforce.py
 ```
 
-Cara Menggunakan
+### Cara Menggunakan
 ```
 python3 dirforce.py -u [Url] -w [wordlist] -o [output.txt] -t [threads]
 ```
