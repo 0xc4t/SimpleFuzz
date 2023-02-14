@@ -1,9 +1,10 @@
-## DirForce v1.2
+## DirForce v2.0
 
-![carbon (1)](https://user-images.githubusercontent.com/105418279/211442334-202b95f3-ed7f-4bb0-baf8-b15374e27182.png)
+![carbon](https://user-images.githubusercontent.com/105418279/218723499-78a30da4-7c7c-422c-93d3-0988a3f89beb.png)
 
 
-DirForce adalah tools open source yang digunakan untuk mencari directory tersembunyi dari suatu website secara pasive tools ini ditulis dengan bahasa pemrograman python dan dibuat oleh varel security
+
+DirForce adalah tools open source yang digunakan untuk mencari directory tersembunyi dari suatu website dengan cepat tools ini ditulis dengan bahasa pemrograman python dan dibuat oleh varel security
 
 ### Installation
 ```
