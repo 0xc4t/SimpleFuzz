@@ -12,10 +12,11 @@ sudo pip3 install -r requirement.txt
 git clone https://github.com/varelsecurity/DirForce
 cd DirForce
 python3 dirforce.py
+```
 
-[HOW TO USE]
+Cara Menggunakan
+```
 python3 dirforce.py -u [Url] -w [wordlist] -o [output.txt] -t [threads]
-
 ```
 ### Testing on 
 
