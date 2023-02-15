@@ -22,7 +22,7 @@ print(Fore.LIGHTCYAN_EX ,'''
 parser.add_argument('-w','--wordlist', type=str, required=True,help="Enter Wordlist")
 parser.add_argument('-u','--url', type=str, required=True, help="Enter URL (eg. https://example.com/)")
 parser.add_argument('-o','--output', type=str, required=False, help="Enter OUTPUT (eg. name.txt)")
-parser.add_argument('-t', '--threads', type=int, default=10, help="threads")
+parser.add_argument('-t', '--threads', type=int, default=1, help="threads")
 args = parser.parse_args()
 os.system("clear")
 print (Fore.LIGHTCYAN_EX, '''
@@ -53,16 +53,20 @@ def fuzz(file):
         print (Fore.LIGHTGREEN_EX,f"(Status: {request.status_code}) [Size : {len(request.content)}]\t {args.url}{file}")
         a = open(f'200.{args.output}','a')
         a.write(url_path)
-    elif request.status_code == 301:
-        print (Fore.LIGHTBLUE_EX,f"(Status: {request.status_code}: Redirect) [Size : {len(request.content)}]\t {args.url}{file}")
+
+    elif request.status_code in ['301','302','303','304']:
+        print (Fore.LIGHTBLUE_EX,f"(Status: {request.status_code}) [Size : {len(request.content)}]\t {args.url}{file}")
         b = open(f'301.{args.output}','a')
         b.write(url_path)
+
     elif request.status_code == 403:
         print (Fore.LIGHTBLACK_EX,f"(Status: {request.status_code}) [Size : {len(request.content)}]\t {args.url}{file}")
         c = open(f'403.{args.output}','a')
         c.write(url_path)
-    elif request.status_code in [404, 500]:
+
+    elif request.status_code == 404:
         None
+
 threads = []
 
 for i in word:
@@ -74,6 +78,4 @@ else:
 
 for thread in threads:
     thread.start()
-
-for thread in threads:
     thread.join()
