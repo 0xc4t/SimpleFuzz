@@ -16,7 +16,7 @@ python3 SimpleFuzz.py
 
 ### Cara Menggunakan
 ```
-python3 .py -u [Url] -w [wordlist] -o [output.txt]
+python3 simplefuzz.py -u [Url] -w [wordlist] -o [output.txt]
 ```
 ### Testing on 
 
