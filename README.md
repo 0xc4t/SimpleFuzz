@@ -8,10 +8,10 @@ SimpleFuzz adalah tools open source yang digunakan untuk mencari directory pada 
 ### Installation
 ```
 sudo apt-get install python3 python3-pip
-sudo pip3 install -r requirement.txt
 git clone https://github.com/varelsecurity/SimpleFuzz
 cd SimpleFuzz
-python3 SimpleFuzz.py
+sudo pip3 install -r requirement.txt
+python3 simplefuzz.py
 ```
 
 ### Cara Menggunakan
