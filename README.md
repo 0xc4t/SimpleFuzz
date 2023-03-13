@@ -3,7 +3,7 @@
 ![carbon](https://user-images.githubusercontent.com/105418279/224471690-acb7220a-39bb-4220-a562-f78c9abb56bd.png)
 
 
-SimpleFuzz adalah tools open source yang digunakan untuk mencari directory pada suatu website dengan cepat, tools ini dibuat menggunakan bahasa Pemrograman python versi 3.10, tools ini dibuat oleh seorang cyber security enthusiast yaitu varel valensio
+SimpleFuzz adalah sebuah alat fuzzing open source yang dikembangkan oleh Varel Security untuk menguji kerentanan pada perangkat lunak. Alat ini dirancang untuk mempermudah proses pengujian fungsional pada program dengan memberikan input yang acak dan mencari respons yang tidak diharapkan.
 
 ### Installation
 ```
