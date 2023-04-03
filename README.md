@@ -1,4 +1,4 @@
-## SimpleFuzz
+## SimpleFuzz v2.0
 
 ![Screenshot from 2023-04-03 22-25-52](https://user-images.githubusercontent.com/105418279/229556129-0657590c-2691-4f67-a26d-8c06d9a7f660.png)
 
