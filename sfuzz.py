@@ -27,7 +27,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-u','--url', required=True, help='Masukan url website target eg: https://example.com/')
 parser.add_argument('-w','--wordlist', required=False,default='db/dic.txt' ,help='Masukan wordlist')
 parser.add_argument('-o','--output', required=False,default='output.txt' ,help='Masukan nama output eg: output.txt')
-parser.add_argument('-t','--thread', type=int,default=25 ,help='Masukan jumbla thread')
+parser.add_argument('-t','--thread', type=int,default=25 ,help='Masukan jumlah thread')
 args = parser.parse_args()
 
 parsed_url = urlparse(args.url)
