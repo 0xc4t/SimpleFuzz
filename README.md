@@ -19,9 +19,15 @@ python3 simplefuzz.py
 ### Cara Menggunakan
 ```
 python3 sfuzz.py -u [Url] -w [wordlist] -o [output.txt]
+python3 multi_fuzz.py -l [url.txt]
 ```
 ### Testing on 
 
 * kali linux
 * ubuntu
 * pydroid
+
+### Fuzzing of url list
+
+![Screenshot from 2023-04-03 22-46-38](https://user-images.githubusercontent.com/105418279/229561325-15c5a30d-4c7f-4f20-91db-6ca42ef078c9.png)
+
