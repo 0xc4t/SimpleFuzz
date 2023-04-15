@@ -1,16 +1,16 @@
 Y='\033[1;33m'
 N='\033[0m'
 
-echo "${Y}Installasi....${N}"
+printf "${Y}Installasi....${N}"
 sudo apt-get install python3 python3-pip 
 pip3 install -r requirements.txt
 
-echo "${Y}Config...${N}"
+printf  "${Y}Config...${N}"
 chmod +x sfuzz
 chmod +x msfuzz
 sudo mv sfuzz msfuzz /usr/bin
 
-echo "${Y}Path...${N}"
+printf  "${Y}Path...${N}"
 cd ..
 sudo mv SimpleFuzz /usr/share/
 
