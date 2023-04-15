@@ -4,7 +4,8 @@ pip3 install -r requirements.txt
 
 echo "Config..."
 chmod +x sfuzz
-sudo mv sfuzz /usr/bin
+chmod +x msfuzz
+sudo mv sfuzz msfuzz /usr/bin
 
 echo "Path..."
 cd ..
