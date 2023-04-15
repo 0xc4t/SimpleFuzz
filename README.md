@@ -6,7 +6,7 @@ SimpleFuzz ditulis dengan menggunakan bahasa pemrograman Python dan dapat dijala
 
 ### Installation
 ```
-git clone https://github.com/KucingMalas-ID/SimpleFuzz/
+git clone https://github.com/VarelSecurity/SimpleFuzz/
 cd SimpleFuzz
 sudo bash install.sh
 ```
@@ -14,11 +14,11 @@ sudo bash install.sh
 ### Cara Menggunakan
 ```
 $ sfuzz.py -u [Url] -w [wordlist] -o [output.txt]
-$ python3 multi_fuzz.py -l [url.txt]
+$ msfuzz -l [url.txt] -w [wordlist]
 ```
 ### Testing on 
 
 * kali linux
 * ubuntu
-* pydroid
+
 
