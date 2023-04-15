@@ -85,15 +85,12 @@ def fuzz(file):
 
 Threads = []
 now = datetime.now()
-print ('')
-print ('[+]-----------------------------[+]')
 dt_string = now.strftime("%H:%M:%S")
 print(f'::: Starting fuzzing {dt_string}')
 print(f'::: Scope    : {args.url}')
 print(f'::: Wordlist : {args.wordlist}')
 print(f'::: Output   : {args.output}')
 print(f'::: Thread   : {args.thread}')
-print ('[+]-----------------------------[+]')
 print('')
 
 for i in lists:
