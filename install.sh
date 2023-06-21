@@ -8,10 +8,6 @@ pip3 install -r requirements.txt
 
 printf  "${Y}Config...${N}"
 
-chmod +x sfuzz
-chmod +x msfuzz
-sudo mv sfuzz msfuzz /usr/bin
-
 printf  "${Y}Path...${N}"
 
 cd ..
@@ -19,5 +15,5 @@ sudo mv SimpleFuzz /usr/share/
 
 printf "${Y}Installasi berhasil...${N}"
 
-printf "${Y}jalankan tools dengan perintah, sfuzz -h dan msfuzz -h ${N}"
+printf "${Y}jalankan tools dengan perintah, sfuzz -h ${N}"
 
