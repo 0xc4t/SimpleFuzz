@@ -1,6 +1,7 @@
 ## SimpleFuzz v2.0
 
-![image](https://user-images.githubusercontent.com/105418279/232236052-c1b1606e-2da7-4a80-8bd0-f44b2eb9bacf.png)
+![Screenshot from 2023-06-21 14-40-28](https://github.com/0xkucing/SimpleFuzz/assets/105418279/54e54466-1d60-4ed1-a8c6-319dbe88487f)
+
 
 SimpleFuzz ditulis dengan menggunakan bahasa pemrograman Python dan dapat dijalankan pada platform Windows, Linux, maupun macOS. Tools ini bisa anda gunakan untuk melakukan directory brute force custom wordlist dan lain lain
 
