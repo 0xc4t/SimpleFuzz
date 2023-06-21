@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/105418279/232236052-c1b1606e-2da7-4a80-8bd0-f44b2eb9bacf.png)
 
-SimpleFuzz ditulis dengan menggunakan bahasa pemrograman Python dan dapat dijalankan pada platform Windows, Linux, maupun macOS. Tools ini juga dilengkapi dengan beberapa fitur seperti logging, pengaturan timeout, dan kemampuan untuk mengubah jenis input data.
+SimpleFuzz ditulis dengan menggunakan bahasa pemrograman Python dan dapat dijalankan pada platform Windows, Linux, maupun macOS. Tools ini bisa anda gunakan untuk melakukan directory brute force custom wordlist dan lain lain
 
 ### Installation
 ```
@@ -14,7 +14,7 @@ sudo bash install.sh
 ### Cara Menggunakan
 ```
 $ sfuzz.py -u [Url] -w [wordlist] -o [output.txt]
-$ msfuzz -l [url.txt] -w [wordlist]
+
 ```
 ### Testing on 
 
