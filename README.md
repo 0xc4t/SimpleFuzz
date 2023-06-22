@@ -15,7 +15,6 @@ sudo bash install.sh
 ### Cara Menggunakan
 ```
 $ sfuzz.py -u [Url] -w [wordlist] -o [output.txt]
-
 ```
 ### Testing on 
 
