@@ -12,6 +12,15 @@ cd SimpleFuzz
 sudo bash install.sh
 ```
 
+### WordList
+```
+$ ls dic
+
+- phpmyadmin-dic.txt
+- git.txt
+- dic.txt
+```
+
 ### Cara Menggunakan
 ```
 $ sfuzz.py -u [Url] -w [wordlist] -o [output.txt]
