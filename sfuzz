@@ -15,8 +15,8 @@ print (Fore.LIGHTGREEN_EX,f'''
 ▐█ ▀. ██ ·██ ▐███▪▐█ ▄███•  ▀▄.▀·▐▄▄·█▪██▌▪▀·.█▌▪▀·.█▌
 ▄▀▀▀█▄▐█·▐█ ▌▐▌▐█· ██▀·██▪  ▐▀▀▪▄██▪ █▌▐█▌▄█▀▀▀•▄█▀▀▀•
 ▐█▄▪▐█▐█▌██ ██▌▐█▌▐█▪·•▐█▌▐▌▐█▄▄▌██▌.▐█▄█▌█▌▪▄█▀█▌▪▄█▀
- ▀▀▀▀ ▀▀▀▀▀  █▪▀▀▀.▀   .▀▀▀  ▀▀▀ ▀▀▀  ▀▀▀ ·▀▀▀ •·▀▀▀ • V 2.0
-                                          by, 0xkucing
+ ▀▀▀▀ ▀▀▀▀▀  █▪▀▀▀.▀   .▀▀▀  ▀▀▀ ▀▀▀  ▀▀▀ ·▀▀▀ •·▀▀▀ •
+                                      Code by 0xkucing
 
 ''')
 parser = argparse.ArgumentParser()
@@ -39,13 +39,14 @@ wordlist = open(args.wordlist, "r")
 lists = wordlist.readlines()
 
 os.system('clear')
+
 print (Fore.LIGHTGREEN_EX,'''
 .▄▄ · ▪  • ▌ ▄ ·.  ▄▄▄·▄▄▌  ▄▄▄ .·▄▄▄▄• ▄▌·▄▄▄▄•·▄▄▄▄•
 ▐█ ▀. ██ ·██ ▐███▪▐█ ▄███•  ▀▄.▀·▐▄▄·█▪██▌▪▀·.█▌▪▀·.█▌
 ▄▀▀▀█▄▐█·▐█ ▌▐▌▐█· ██▀·██▪  ▐▀▀▪▄██▪ █▌▐█▌▄█▀▀▀•▄█▀▀▀•
 ▐█▄▪▐█▐█▌██ ██▌▐█▌▐█▪·•▐█▌▐▌▐█▄▄▌██▌.▐█▄█▌█▌▪▄█▀█▌▪▄█▀
- ▀▀▀▀ ▀▀▀▀▀  █▪▀▀▀.▀   .▀▀▀  ▀▀▀ ▀▀▀  ▀▀▀ ·▀▀▀ •·▀▀▀ • V 2.0
-                                        by, 0xkucing
+ ▀▀▀▀ ▀▀▀▀▀  █▪▀▀▀.▀   .▀▀▀  ▀▀▀ ▀▀▀  ▀▀▀ ·▀▀▀ •·▀▀▀ •
+                                      Code by 0xkucing
 ''')
 
 parsed_url = urlparse(args.url)
@@ -65,7 +66,7 @@ def fuzz(file):
         x = r.get(f'{args.url}{file}', verify=True, follow_redirects=True)
         url_path = (f'[STATUS : {x.status_code}] [{args.url}{file}]\n')
         if x.status_code in [200, 201, 202, 203, 204, 205, 206, 207, 208]:
-            print(Fore.LIGHTGREEN_EX, f"[STATUS: {x.status_code}] [Size : {len(x.content)}]\t {args.url}{file}")
+            print(Fore.GREEN, f"[STATUS: {x.status_code}] [Size : {len(x.content)}]\t {Fore.LIGHTWHITE_EX}{args.url}{file}")
             a = open(f'200-OK.{args.output}', 'a')
             a.write(url_path)
             a.close()
