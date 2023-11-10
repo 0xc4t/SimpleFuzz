@@ -15,7 +15,6 @@ sudo bash install.sh
 ### WordList
 ```
 $ ls dic
-
 - phpmyadmin-dic.txt
 - git.txt
 - dic.txt
@@ -26,8 +25,7 @@ $ ls dic
 $ sfuzz.py -u [Url] -w [wordlist] -o [output.txt]
 ```
 ### Testing on 
-
-* kali linux
-* ubuntu
+- kali linux
+- ubuntu
 
 
